@@ -1,0 +1,111 @@
+
+#comidas img {
+  border: 3px solid #ff0000; 
+  border-radius: 1px; 
+  padding: 1px; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: red; 
+  }
+  
+  
+
+  
+  .nav-link:hover {
+    color: red; 
+  }
+  
+ 
+  footer {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  
+  .btn-primary {
+    background-color: #ff0000;
+    border-color: #ff0000;
+  }
+  
+ 
+
+ 
+footer a img {
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+
+footer a img:hover {
+  content: url('img/ig_logo_hover.jpg');
+
+}
+
+
+#comidas img[alt="Cazuela"]:hover {
+  content: url('img/cazuela2.jfif');
+  border: 3px solid #2600ff; 
+  border-radius: 1px; 
+  padding: 1px; 
+}
+
+#comidas img[alt="Terremoto"]:hover {
+  content: url('img/terremoto2.jfif');
+  border: 3px solid #2600ff; 
+  border-radius: 1px; 
+  padding: 1px; 
+}
+
+#comidas img[alt="Pastel de Choclo"]:hover {
+  content: url('img/pastel de choclo2.jfif');
+  border: 3px solid #2600ff; 
+  border-radius: 1px; 
+  padding: 1px; 
+}
+
+#comidas img[alt="Completos"]:hover {
+  content: url('img/completos2.jpg');
+  border: 3px solid #2600ff; 
+  border-radius: 1px; 
+  padding: 1px; 
+}
+
+#comidas img[alt="Empanadas"]:hover {
+  content: url('img/Empanada de pino2.jfif');
+  border: 3px solid #2600ff; 
+  border-radius: 1px; 
+  padding: 1px; 
+}
+
+#comidas img[alt="Sopaipillas"]:hover {
+  content: url('img/sopaipillas2.jfif');
+  border: 3px solid #2600ff; 
+  border-radius: 1px; 
+  padding: 1px; 
+}
+
+/* Estilo general de texto para toda la página */
+body {
+  font-family: 'Arial', sans-serif; 
+  font-size: 16px; 
+  color: #333333; 
+  line-height: 1.6; 
+}
+
+/* Estilo para los títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif; 
+  color: #444444; 
+}
+
+/* Estilo para los párrafos */
+p {
+  font-size: 16px; 
+  color: #555555; 
+}
+
+a:hover {
+  color: #0056b3; 
+  text-decoration: underline; 
+}
